@@ -21,6 +21,19 @@ html {
   text-align: center;
 }
 
+.btn--stroke-2,
+button.btn--stroke-2 {
+  background: transparent !important;
+  border: 0.2rem solid black;
+  color: black;
+}
+
+.btn--stroke-2:hover,
+button.btn--stroke-2:hover {
+  background: black !important;
+  color: white !important;
+}
+
 @media only screen and (max-width: 400px) {
   html {
     font-size: 9.411764705882353px;

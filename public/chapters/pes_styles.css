@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pes_container{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pes_title{
+    width: 100%;
+    text-align: center;
+}
+
+.pes_abt{
+    display: flex;
+    /* gap: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem; */
+    justify-content: center;
+    width: 100%;
+}
+
+.pes_info{
+    display: block;
+    font-size: large;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
