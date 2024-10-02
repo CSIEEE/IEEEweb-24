@@ -2613,11 +2613,11 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-.clients-outer {
-  margin-top: 3.6rem;
-  padding-bottom: 9rem;
-  text-align: center;
-  position: relative;
+.clients-outer, .col-full {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto; /* Centering content */
 }
 
 .clients__slide {
