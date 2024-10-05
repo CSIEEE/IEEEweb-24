@@ -2626,7 +2626,9 @@ html.no-csstransitions .home-content__main {
 
 /* CSS Updations Vishrut */
 .event-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
   gap: 20px; /* Space between tiles */
   justify-items: center;
@@ -2642,6 +2644,13 @@ html.no-csstransitions .home-content__main {
   transition: transform 0.3s ease;
   text-align: center;
   max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .event-tile {
+      flex: 1 1 100%; /* Makes each tile take the full width on smaller screens */
+      margin: 10px 0;
+  }
 }
 
 .event-tile:hover {
