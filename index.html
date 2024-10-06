@@ -1,187 +1,235 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>IEEE DTU</title>
-        <meta name="description" content="Created with ❤️ by IEEE DTU ">
-        <meta name="author" content="Pratham Upadhyay">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <title>IEEE DTU</title>
+    <meta name="description" content="Created with ❤️ by IEEE DTU ">
+    <meta name="author" content="Pratham Upadhyay">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- <script defer src="./js/jquery.js"></script>
-        <script defer src="./js/popper.js"></script>
-        <script defer src="./js/bootstrap.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/vendor.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <script src="js/modernizr.js"></script>
-        <script src="js/pace.min.js"></script>
-        <script defer src="./component/form.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script defer src="./component/form.js"></script>
 
-        <link rel="icon" href="./images/IEEE_DTU_Logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/IEEE_DTU_Logo.png" type="image/x-icon">
 
-    </head>
+</head>
 
-    <body id="top">
-        <header class="s-header">
-            <div class="header-logo">
-                <a style="padding-top: 30px;" class="site-logo" href="#home">
-                    <img src="./images/Newlogo.png" alt="Homepage">
-                </a>
+<body id="top">
+    <header class="s-header">
+        <div class="header-logo">
+            <a style="padding-top: 30px;" class="site-logo" href="#home">
+                <img src="./images/Newlogo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About Us</a></li>
+                    <li><a class="smoothscroll" href="#faculty" title="about">Faculty Advisor</a></li>
+                    <li><a class="smoothscroll" href="#services" title="about">Chapters</a></li>
+                    <li><a class="smoothscroll" href="#clients" title="services">Events</a></li>
+                    <li><a class="smoothscroll" href="#testinomials" title="clients">Testinomials</a></li>
+                    <li><a class="smoothscroll" href="#council" title="councils">Council</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                </ul>
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ieee.dtu/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+
             </div>
 
-            <nav class="header-nav">
+        </nav>
 
-                <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
 
-                <div class="header-nav__content">
-                    <ul class="header-nav__list">
-                        <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-                        <li><a class="smoothscroll" href="#about" title="about">About Us</a></li>
-                        <li><a class="smoothscroll" href="#faculty" title="about">Faculty Advisor</a></li>
-                        <li><a class="smoothscroll" href="#services" title="about">Chapters</a></li>
-                        <li><a class="smoothscroll" href="#clients" title="services">Events</a></li>
-                        <li><a class="smoothscroll" href="#testinomials" title="clients">Testinomials</a></li>
-                        <li><a class="smoothscroll" href="#council" title="councils">Council</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
-                    </ul>
+    </header>
 
-                    <ul class="header-nav__social">
-                        <li>
-                            <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/ieee.dtu/"><i class="fa-brands fa-instagram"></i></a>
-                        </li>
-                    </ul>
+    <section id="home" class="s-home target-section" data-parallax="scroll">
 
-                </div>
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
 
-            </nav>
+        <div class="home-content">
 
-            <a class="header-menu-toggle" href="#0">
-                <span class="header-menu-text">Menu</span>
-                <span class="header-menu-icon"></span>
-            </a>
+            <div class="row home-content__main">
 
-        </header>
+                <h3 style="color: #70A6E3;">Welcome to</h3>
 
-        <section id="home" class="s-home target-section" data-parallax="scroll">
+                <h1>
+                    IEEE DTU Student Branch<br>
+                </h1>
 
-            <div class="overlay"></div>
-            <div class="shadow-overlay"></div>
+                <h3 style="color: #70A6E3;">A world of limitless Possiblities</h3>
 
-            <div class="home-content">
-
-                <div class="row home-content__main">
-
-                    <h3 style="color: #70A6E3;">Welcome to</h3>
-
-                    <h1>
-                        IEEE DTU Student Branch<br>
-                    </h1>
-
-                    <h3 style="color: #70A6E3;">A world of limitless Possiblities</h3>
-
-                    <div class="home-content__buttons">
-                        <a href="#contact" class="smoothscroll btn btn--stroke">
-                            Contact Us
-                        </a>
-                        <a href="#about" class="smoothscroll btn btn--stroke">
-                            More About Us
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll</span>
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Contact Us
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Us
                     </a>
                 </div>
 
-                <div class="home-content__line"></div>
-
             </div>
 
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll</span>
+                </a>
+            </div>
 
-            <ul class="home-social">
-                <li>
-                    <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ieee.dtu/"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-                </li>
-            </ul>
+            <div class="home-content__line"></div>
 
-        </section>
-        <div class="container">
+        </div>
+
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f"
+                        aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter"
+                        aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ieee.dtu/"><i class="fa-brands fa-instagram"
+                        aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul>
+
+    </section>
+    <div class="container">
 
         <section id='about' class="s-about">
-
-            <div class="row section-header has-bottom-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <!-- <h5 class="subhead subhead--dark" style="color: white;">Welcome</h5> -->
-                    <h4 class="display-1 display-1--light"
-                        style=" color: white; font-family: monospace;">ABOUT IEEE DTU</h4>
+            <div class="card" style="background-color: black;">
+                <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                    <div class="col-full">
+                        <!-- <h5 class="subhead subhead--dark" style="color: white;">Welcome</h5> -->
+                        <h4 class="display-1 display-1--light" style=" color: white; font-family: monospace;">ABOUT IEEE
+                            DTU
+                        </h4>
+                    </div>
                 </div>
-            </div>
 
 
-            <div class="grid-container">
-                <div class="grid-item">
-                    <div class="row about-desc" data-aos="fade-up">
-                        <div class="col-full" style="color: whitesmoke; font-family: sans-serif;">
-                            <br>
-                            <p>
-                                IEEE DTU Student Branch , under the aegis of IEEE Global, is the oldest student branch
-                                in Delhi Section with an illustrious history of over three decades.
-                                <br><br>
-                                Under the invaluable guidance of Dr. J. Panda, IEEE DTU has emerged as one of the most
-                                active and innovative student branches in India. IEEE DTU organizes a plethora of events
-                                around the year such as TECHWEEK, MICROHACK and the annual technical festival TROIKA to
-                                instil a scientific temperament in students and to cater to the needs of their
-                                inquisitive nature. IEEE DTU is also renowned for its publications- ECHO, a magazine for
-                                freshers, IOTA, the annual technical magazine, TRIGGER, the TROIKA souvenir, and The
-                                Troika Times. In the year 2012, one of the commendable feats of IEEE DTU Student Branch
-                                was the organizing of ISSET (International Symposium on Standards in Engineering &
-                                Technology), which provided a platform for student researchers, besides academic and
-                                professional experts, to share and exchange their ideas.
-                                <br><br>
-                                IEEE DTU student members get a chance to be in touch with the latest technical
-                                information, research and career opportunities. Not only do they take part in several
-                                events, but also get a chance to organize them with their young and capable hands. “Toil
-                                to attain thy heights”. By following this mantra with heart in work and mind in place,
-                                and feet firmly on ground, IEEE DTU is poised for a quantum leap forward.
-                            </p>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="row about-desc" data-aos="fade-up">
+                            <div class="col-full" style="color: whitesmoke; font-family: sans-serif;">
+                                <p style="font-size: 12px;">
+                                    <strong>IEEE DTU Student Branch</strong>, established in
+                                    <strong>1983</strong>, in
+                                    the IEEE Delhi Section, Region 10, is the <strong>oldest and largest
+                                        society</strong> at Delhi Technological University. With a history of over four
+                                    decades, it has grown into one of the most vibrant and innovative
+                                    student organizations on campus, dedicated to promoting <strong>technical
+                                        knowledge</strong>, <strong>skill development</strong>, and
+                                    <strong>leadership</strong> among students.
+                                    <br>
+                                    Under the guidance of <strong>Dr. J. Panda</strong>, IEEE DTU organizes numerous
+                                    events throughout the year, engaging students with cutting-edge technology
+                                    and fostering collaboration. The academic year begins with an
+                                    <strong>Orientation Program</strong> for juniors, followed by <strong>IEEE Day on
+                                        October 1st</strong>, setting the tone for a series of major events like
+                                    <strong>Tech Week</strong>, <strong>TROIKA</strong>, and <strong>Vihaan</strong>,
+                                    which is India’s largest student-run hackathon, throughout the year. These
+                                    events offer students a chance to learn, innovate, and
+                                    grow through hands-on experience.
+                                    <br>
+                                    IEEE DTU is supported by four specialized chapters—<strong>Computer Society
+                                        (CS)</strong>, <strong>Women in Engineering (WIE)</strong>, <strong>Power &
+                                        Energy Society – Industrial Applications Society (PES-IAS)</strong>, and
+                                    <strong>Circuits and Systems Society (CASS)</strong>. Each chapter plays a vital
+                                    role in managing and organizing events related to its domain, ensuring a seamless
+                                    experience while promoting <strong>in-depth technical learning</strong>.
+                                    <br>
+                                    In addition to events, IEEE DTU is well-known for its publications, such as
+                                    <strong>ECHO</strong>, <strong>IOTA</strong>, <strong>TRIGGER</strong>, and
+                                    <strong>The Troika Times</strong>, which offer students a platform to showcase
+                                    their technical knowledge and document the branch’s activities.
+                                    <br>
+                                    IEEE DTU also provides a robust mentoring system, where students can
+                                    interact with seniors and alumni placed at top companies like
+                                    <strong>Microsoft</strong> and <strong>Google</strong>, gaining insights and
+                                    guidance for their future careers. As the <strong>oldest and largest
+                                        society</strong> at DTU, IEEE DTU remains committed to fostering
+                                    <strong>innovation</strong>, <strong>leadership</strong>, and <strong>personal
+                                        growth</strong>, equipping its members with the skills and knowledge to make a
+                                    lasting impact in the tech world.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleAutoplaying" class="grid-item carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/aboutus/IMG_4391.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/aboutus/IMG_5056.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/aboutus/IMG_7113.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/aboutus/IMG_7345.jpg" class="d-block w-100">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="grid-item">
-                    <br>
-                    <img src="./images/IEEE23.jpg">
-                    <br><br>
-                    <img src="./images/IEE@.png">
-                </div>
-            </div>
-            <div class="row about-stats stats block-1-2 block-m-1-2 block-mob-full" data-aos="fade-up">
+                <div class="row about-stats stats block-1-2 block-m-1-2 block-mob-full" data-aos="fade-up">
 
-                <div class="col-block stats__col ">
-                    <div><span class="stats__count">40</span><span class="stats__plus">+</span></div>
-                    <h5 style="color: #70A6E3;">YEAR OF EXISTENCE</h5>
-                </div>
-                <div class="col-block stats__col">
-                    <div><span class="stats__count">2053</span><span class="stats__plus">+</span></div>
-                    <h5 style="color: #70A6E3;">IEEE DTU ALUMNI</h5>
+                    <div class="col-block stats__col ">
+                        <div><span class="stats__count">40</span><span class="stats__plus">+</span></div>
+                        <h5 style="color: #70A6E3;">YEAR OF EXISTENCE</h5>
+                    </div>
+                    <div class="col-block stats__col">
+                        <div><span class="stats__count">2500</span><span class="stats__plus">+</span></div>
+                        <h5 style="color: #70A6E3;">IEEE DTU ALUMNI</h5>
+                    </div>
                 </div>
             </div>
         </section>
@@ -190,42 +238,64 @@
             <div class="grid-container_5">
                 <div class="grid-item_5" style="border-right: black solid;">
                     <div class="py-2">
-                        <span style="font-size: large; color:blue; font-weight: bold; text-shadow: gray 5px -5px 30px;">Be Part of the IEEE-DTU Family</span>
+                        <span
+                            style="font-size: large; color:blue; font-weight: bold; text-shadow: gray 5px -5px 30px;">Be
+                            Part of the IEEE-DTU Family</span>
                         <h3 style="color: black; margin: 10px; padding: 0%; ">Join Now</h3>
                         <br>
                     </div>
-                    <iframe src="https://forms.gle/u164tfiTynR6oChs9" width="450" height="932" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://forms.gle/u164tfiTynR6oChs9" width="450" height="932" frameborder="0"
+                        marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
                 <div class="grid-item_5">
                     <div class="row section-header has-bottom-sep aos-init aos-animate" data-aos="fade-up">
                         <div class="col-full">
-                            <h5 class="subhead subhead--dark" style="color: darkslateblue; font-size: xx-large;">Benefits</h5>
-                            <h4 class="display-1 display-1--light" style=" color: #70A6E3; font-family:monospace; text-shadow: gray 5px -5px 30px; font-size: larger;">OF JOINING IEEE DTU</h4>
+                            <h5 class="subhead subhead--dark" style="color: darkslateblue; font-size: xx-large;">
+                                Benefits</h5>
+                            <h4 class="display-1 display-1--light"
+                                style=" color: #70A6E3; font-family:monospace; text-shadow: gray 5px -5px 30px; font-size: larger;">
+                                OF JOINING IEEE DTU</h4>
                         </div>
                     </div>
                     <p style="color: black; font-size:large; padding: 30px; text-align: justify;">
-                        IEEE membership is an identity in itself. This includes invites to International conferences, journals, and year-round Seminars and Workshops. 
-                        The members get special discounts on electronic devices and workshops. Competitions and contests like IEEE Xtreme are a direct opportunity to compete with the 
-                        stalwarts of their fields. leee.org's email ID gives you a sense of belongingness in the outside world and opens up a lot of opportunities.
-<br><br>
+                        IEEE membership is an identity in itself. This includes invites to International conferences,
+                        journals, and year-round Seminars and Workshops.
+                        The members get special discounts on electronic devices and workshops. Competitions and contests
+                        like IEEE Xtreme are a direct opportunity to compete with the
+                        stalwarts of their fields. leee.org's email ID gives you a sense of belongingness in the outside
+                        world and opens up a lot of opportunities.
+                        <br><br>
 
-IEEE members enjoy reduced rates on many proprietary products and services including IEEE books and eBooks, journals and articles, conferences and proceedings, 
-standards, society memberships, and continuing education courses. In addition, members have access to a variety of affinity programs that offer savings. 
-The IEEE Xplore Library offers a student member access to the ultimate collection of technical periodicals and conference publications at no additional cost.
- The latest research from 37 peer-reviewed magazines and journals, covering the whole spectrum of computing and if that wasn't enough to captivate your 
- interest 700,000 documents from more than 300,000 content experts covering virtually every computing topic. Excited enough? Well, these were just the perks 
- of being a member of IEEE Let's talk about the additional perks of IEEE DTU. Let's just say, it can't be expressed on a tiny page like this. But still, am gonna try.
-<br><br>
+                        IEEE members enjoy reduced rates on many proprietary products and services including IEEE books
+                        and eBooks, journals and articles, conferences and proceedings,
+                        standards, society memberships, and continuing education courses. In addition, members have
+                        access to a variety of affinity programs that offer savings.
+                        The IEEE Xplore Library offers a student member access to the ultimate collection of technical
+                        periodicals and conference publications at no additional cost.
+                        The latest research from 37 peer-reviewed magazines and journals, covering the whole spectrum of
+                        computing and if that wasn't enough to captivate your
+                        interest 700,000 documents from more than 300,000 content experts covering virtually every
+                        computing topic. Excited enough? Well, these were just the perks
+                        of being a member of IEEE Let's talk about the additional perks of IEEE DTU. Let's just say, it
+                        can't be expressed on a tiny page like this. But still, am gonna try.
+                        <br><br>
 
-Ever wondered to participate in Robo wars and Robo roces. Did it ever occur to you, how to build one of those drones? Worry not, we have you covered! 
-Becoming a member invites you to be a part of the family of great minds, each a master of his own field. who, in the due course of time would become your mentors. 
-You will also get the chance to unleash your creativity through technology and innovate beyond limits through our annual hackathon Vihaan. We work using the concept 
-of SIGS (Special Interest Groups) and take classes for you after compus hours and help you grow. Be it the field of Al and ML, or if you want to learn Arduino, or 
-if you have a knack for designing, be it web or 30 Modelling. You can't stop exploring that is a guarantee we provide on our behalf.
-<br><br>
-This is the only society of DTU that takes you on a trip after the success of its event. The Techfest! In the nascency of your college years, 
-you get to manage great events, build trocks for the Robo races and wars, and that too on the beautiful OAT with moonlight shimmering down your face. 
-Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
+                        Ever wondered to participate in Robo wars and Robo roces. Did it ever occur to you, how to build
+                        one of those drones? Worry not, we have you covered!
+                        Becoming a member invites you to be a part of the family of great minds, each a master of his
+                        own field. who, in the due course of time would become your mentors.
+                        You will also get the chance to unleash your creativity through technology and innovate beyond
+                        limits through our annual hackathon Vihaan. We work using the concept
+                        of SIGS (Special Interest Groups) and take classes for you after compus hours and help you grow.
+                        Be it the field of Al and ML, or if you want to learn Arduino, or
+                        if you have a knack for designing, be it web or 30 Modelling. You can't stop exploring that is a
+                        guarantee we provide on our behalf.
+                        <br><br>
+                        This is the only society of DTU that takes you on a trip after the success of its event. The
+                        Techfest! In the nascency of your college years,
+                        you get to manage great events, build trocks for the Robo races and wars, and that too on the
+                        beautiful OAT with moonlight shimmering down your face.
+                        Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
 
                     </p>
                 </div>
@@ -279,8 +349,10 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                 <div class="col-block stats__col ">
                     <img src="./images/imgonline-com-ua-resize-cpifk7tKRt.jpg">
                     <div style="text-align: center; color:darkblue; font-weight: bold; ">Prof. Rahul Kataria</div>
-                    <div style="color: black;">Professor, Computer Engineering <br> Department DTU, IEEE DTU, CS chapter <br>
-                        faculty advisor</div>
+                    <div style="color: black;">Professor, Computer Engineering <br> Department DTU, IEEE DTU, CS chapter
+                        <br>
+                        faculty advisor
+                    </div>
                 </div>
                 <div class="col-block stats__col">
                     <img src="./images/rachna.png">
@@ -301,13 +373,15 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
 
         <section id='services' class="s-services">
 
-            <div class="row section-header has-bottom-sep" style="font-family: serif; border-bottom: gray solid;" data-aos="fade-up">
+            <div class="row section-header has-bottom-sep" style="font-family: serif; border-bottom: gray solid;"
+                data-aos="fade-up">
                 <div class="col-full">
                     <h1 class="display-2">ABOUT OUR CHAPTERS</h1>
                 </div>
             </div>
 
-            <div id="cs" class="grid-container_2" style="border-bottom: gray solid; font-family: sans-serif; margin: 0px 50px 0px 50px;">
+            <div id="cs" class="grid-container_2"
+                style="border-bottom: gray solid; font-family: sans-serif; margin: 0px 50px 0px 50px;">
                 <div class="grid-item_2" data-aos="fade-up">
                     <br> <br><br>
                     <div class="service-text">
@@ -316,7 +390,9 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                 </div>
                 <div class="grid-item_2" data-aos="fade-up">
                     <br> <br><br>
-                    <a href="#cs"><h3 class="h4">IEEE DTU CS CHAPTER</h3></a>
+                    <a href="#cs">
+                        <h3 class="h4">IEEE DTU CS CHAPTER</h3>
+                    </a>
                     <p style="padding: 0px 30px 0px 30px; text-align: justify;">
                         The IEEE Computer Society is the premier source for information, inspiration, and collaboration
                         in Computer Science and Engineering. IEEE DTU has become affiliated to the IEEE Computer Society
@@ -344,12 +420,15 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                 <div class="grid-item_2" data-aos="fade-up">
                     <br> <br><br>
                     <div class="service-text">
-                        <a href="./chapters/pes.html"><h3 class="h4">IEEE DTU PES-IAS CHAPTER</h3></a>
+                        <a href="./chapters/pes.html">
+                            <h3 class="h4">IEEE DTU PES-IAS CHAPTER</h3>
+                        </a>
                         <p style="padding: 0 30px 0 30px; text-align: justify;">
                             The Power & Energy Society (PES) provides the world's largest forum for sharing latest in
                             technological developments in the electric power industry, for developing standards that
                             guide the development and construction of equipment and systems, and for educating members
-                            of the industry and the general public. Members of the PES are leaders in this field, and the
+                            of the industry and the general public. Members of the PES are leaders in this field, and
+                            the
                             members gain substantial benefits.
                         </p>
                         <a href="./chapters/pes.html" class="btn btn--stroke-2">
@@ -361,7 +440,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
 
             </div>
             <br>
-            <div id="wie"  class="grid-container_2" style="border-bottom: gray solid; margin: 0px 50px 0px 50px;">
+            <div id="wie" class="grid-container_2" style="border-bottom: gray solid; margin: 0px 50px 0px 50px;">
 
                 <div class="grid-item_2" data-aos="fade-up">
                     <br> <br><br>
@@ -375,7 +454,9 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         <br>
                         <br>
                         <br>
-                        <a href="#wie"><h3 class="h4">IEEE DTU WIE CHAPTER</h3></a>
+                        <a href="#wie">
+                            <h3 class="h4">IEEE DTU WIE CHAPTER</h3>
+                        </a>
                         <p style="padding: 0 30px 0 30px; text-align: justify;">
                             Women in Engineering (WIE) is a global network of IEEE members a devoted to promoting the
                             advancement of women in science and retention of disciplines globally. The vision it holds
@@ -399,10 +480,11 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                 <div class="col-full">
                     <h3 class="subhead" style="color: #70A6E3;">FUN & ACTIVITIES</h3>
                     <h1 class="display-2">OUR EVENTS</h1>
-                    <h3 class="subhead" style="color: #70A6E3;">Some of the events conducted by IEEE DTU throughout the year</h3>
+                    <h3 class="subhead" style="color: #70A6E3;">Some of the events conducted by IEEE DTU throughout the
+                        year</h3>
                 </div>
             </div>
-            
+
             <div id="events" class="row clients-outer" data-aos="fade-up">
                 <div class="col-full">
                     <div class="event-grid">
@@ -444,7 +526,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         <div class="event-tile">
                             <img src="images/clients/casestudy.jpg" alt="Case-study Competitions">
                             <span class="event-title" style="color: #70A6E3;">Case-Study Competitions</span><br>
-                            <span class="event-description">Solutions are born from analysis and daring assumptions</span>
+                            <span class="event-description">Solutions are born from analysis and daring
+                                assumptions</span>
                         </div>
                         <div class="event-tile">
                             <img src="images/clients/domain.jpg" alt="Domain Competitions">
@@ -486,7 +569,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                             <span class="event-title" style="color: #70A6E3;">WorldQaunt</span><br>
                             <span class="event-description">A quantitative finance & fintech challenge</span>
                         </div>
-                        
+
                         <div class="event-tile">
                             <img src="images/clients/DSSYWC.png" alt="DSSYWC-22">
                             <span class="event-title" style="color: #70A6E3;">DSSYWC-22</span><br>
@@ -499,7 +582,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         </div> -->
                     </div>
                 </div>
-            </div>   
+            </div>
 
             <br>
             <div id="testinomials" class="row section-header" data-aos="fade-up">
@@ -519,13 +602,15 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                             <div class="grid-container">
                                 <div class="grid-items">
                                     <br><br>
-                                    <p style="text-align: justify;">P.M. Foundation Fellowship – Awarded the fellowship for securing a rank among the
+                                    <p style="text-align: justify;">P.M. Foundation Fellowship – Awarded the fellowship
+                                        for securing a rank among the
                                         top 10 performers in GCC among all participating
                                         candidates in the P.M Foundation Talent Search Exam and being the only 1 student
                                         to do so from Kuwait in the year.</p>
                                 </div>
                                 <div>
-                                    <img style="height: 400px;" src="images/avatars/Screenshot 2022-09-04 at 2.05.57 PM.png" alt="Author image"
+                                    <img style="height: 400px;"
+                                        src="images/avatars/Screenshot 2022-09-04 at 2.05.57 PM.png" alt="Author image"
                                         class="testimonials__avatar">
                                     <div class="testimonials__info">
                                         <span class="testimonials__name">Sonal Bera</span>
@@ -540,15 +625,21 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
 
                             <div class="grid-container">
                                 <div class="grid-items">
-                                    <p style="text-align: justify;">I can undoubtedly declare that the Smart India Hackathon 2020 was a life changing experience for all of us,
+                                    <p style="text-align: justify;">I can undoubtedly declare that the Smart India
+                                        Hackathon 2020 was a life changing experience for all of us,
                                         and it could be possible only because of IEEE.
-                                        It gave us the opportunity to work with excellent mentors, on actual industrial problems.
-                                        Being an IEEE member provided us the required knowledge to build the full-stack proj
-                                        and it also enabled us to learn and imbibe various associated skills like team bonding, management, solving the real-time issues and leadership.
-                                        Each one of us worked to our full potential and the final result was indeed blissful.</p>
+                                        It gave us the opportunity to work with excellent mentors, on actual industrial
+                                        problems.
+                                        Being an IEEE member provided us the required knowledge to build the full-stack
+                                        proj
+                                        and it also enabled us to learn and imbibe various associated skills like team
+                                        bonding, management, solving the real-time issues and leadership.
+                                        Each one of us worked to our full potential and the final result was indeed
+                                        blissful.</p>
                                 </div>
                                 <div>
-                                    <img style="height: 400px;" src="images/avatars/Screenshot 2022-09-04 at 2.05.34 PM.png" alt="Author image"
+                                    <img style="height: 400px;"
+                                        src="images/avatars/Screenshot 2022-09-04 at 2.05.34 PM.png" alt="Author image"
                                         class="testimonials__avatar">
                                     <div class="testimonials__info">
                                         <span class="testimonials__name">Shivam Kumar</span>
@@ -570,7 +661,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                         at Ryerson University, Toronto, Canada</p>
                                 </div>
                                 <div>
-                                    <img style="height: 400px;" src="images/avatars/Screenshot 2022-09-04 at 2.05.41 PM.png" alt="Author image"
+                                    <img style="height: 400px;"
+                                        src="images/avatars/Screenshot 2022-09-04 at 2.05.41 PM.png" alt="Author image"
                                         class="testimonials__avatar">
                                     <div class="testimonials__info">
                                         <span class="testimonials__name">Harshit Gupta</span>
@@ -585,19 +677,27 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
 
                             <div class="grid-container">
                                 <div class="grid-items">
-                                    <p style="text-align: justify; font-size: large;">My journey with IEEE started in 2013 and I have been a part of IEEE for four years up until I graduated.
+                                    <p style="text-align: justify; font-size: large;">My journey with IEEE started in
+                                        2013 and I have been a part of IEEE for four years up until I graduated.
                                         I dabbled with a lot of things in IEEE such as programming, website designing,
-                                        LFRs, Mac-Bots, publications, corporate affairs and so on. That's where I found my calling and built a career around it.
+                                        LFRs, Mac-Bots, publications, corporate affairs and so on. That's where I found
+                                        my calling and built a career around it.
                                         Through IEEE I learnt a lot of things such as how to talk to people.
-                                        I met the best set of people including seniors who inspired and guided me, my batchmates who stood with me, and juniors who looked up to me.
-                                        I gained a lot of technical experience from working on IEEE projects such as Troika and other fests. But more than that, I gained friends.
-                                         I gained a way to talk to people, give interviews, ask questions and make contacts, which that is something that takes you a long way in life,
-                                         and IEEE was a major contributing factor in everything.
-                                         I am where I am because of all my experiences as an IEEE member, being with my friends and coworkers. I really hope that a few years down the line,
-                                         you all will be the ones encouraging more juniors with your journey as an IEEE member.</p>
+                                        I met the best set of people including seniors who inspired and guided me, my
+                                        batchmates who stood with me, and juniors who looked up to me.
+                                        I gained a lot of technical experience from working on IEEE projects such as
+                                        Troika and other fests. But more than that, I gained friends.
+                                        I gained a way to talk to people, give interviews, ask questions and make
+                                        contacts, which that is something that takes you a long way in life,
+                                        and IEEE was a major contributing factor in everything.
+                                        I am where I am because of all my experiences as an IEEE member, being with my
+                                        friends and coworkers. I really hope that a few years down the line,
+                                        you all will be the ones encouraging more juniors with your journey as an IEEE
+                                        member.</p>
                                 </div>
                                 <div>
-                                    <img style="height: 400px;" src="images/avatars/Screenshot 2022-09-04 at 2.10.10 PM.png" alt="Author image"
+                                    <img style="height: 400px;"
+                                        src="images/avatars/Screenshot 2022-09-04 at 2.10.10 PM.png" alt="Author image"
                                         class="testimonials__avatar">
                                     <div class="testimonials__info">
                                         <span class="testimonials__name">Shreya</span>
@@ -612,16 +712,19 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                             <div class="grid-container">
                                 <div class="grid-items">
                                     <br><br>
-                                    <p style="text-align: justify; font-size: large;">Published paper in Springer Booklet - Computation of Hopf Bifurcation points for
+                                    <p style="text-align: justify; font-size: large;">Published paper in Springer
+                                        Booklet - Computation of Hopf Bifurcation points for
                                         Magnetic Levitation System
                                         <br>
                                         Published in IEEE Xplore - Bifurcation Curves for Electrical DC Motors.
                                         <br>
                                         Awarded J.K. Pal Memorial Award, 2020 and Outstanding Student Volunteer Award,
-                                        2019 by IEEE Delhi Section Award Committee.</p>
+                                        2019 by IEEE Delhi Section Award Committee.
+                                    </p>
                                 </div>
                                 <div>
-                                    <img style="height: 400px;" src="images/avatars/Screenshot 2022-09-04 at 2.05.50 PM.png" alt="Author image"
+                                    <img style="height: 400px;"
+                                        src="images/avatars/Screenshot 2022-09-04 at 2.05.50 PM.png" alt="Author image"
                                         class="testimonials__avatar">
                                     <div class="testimonials__info">
                                         <span class="testimonials__name">Aditya Verma</span>
@@ -665,7 +768,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/rishab-dandriyal-45160122a/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/rishab-dandriyal-45160122a/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -688,7 +792,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/arijit-sen-118083233/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/arijit-sen-118083233/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -697,141 +802,146 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                 </div>
                 <div class="box">
-                  <div class="imgBox">
-                      <img src="./images/Council 2025 Photographs/AreebAhmedKhan.jpg" alt="">
-                  </div>
-                  <div class="content">
-                      <h2 style="color: dimgray;">Areeb Ahmed Khan </br>
-                          <span>GENERAL SECRETARY</span>
-                          <br>
-                          <ul class="contact-social" style="margin-top: 1rem;">
-                              <!-- <li>
+                    <div class="imgBox">
+                        <img src="./images/Council 2025 Photographs/AreebAhmedKhan.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 style="color: dimgray;">Areeb Ahmed Khan </br>
+                            <span>GENERAL SECRETARY</span>
+                            <br>
+                            <ul class="contact-social" style="margin-top: 1rem;">
+                                <!-- <li>
                                   <a href="#"><i class="fa-brands fa-x-twitter"
                                           style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                           aria-hidden="true"></i></a>
                               </li> -->
-                              <li>
-                                  <a href="https://www.instagram.com/khan_areeb22/"><i class="fa-brands fa-instagram"
-                                          style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
-                                          aria-hidden="true"></i></a>
-                              </li>
-                              <li>
-                                  <a href="https://www.linkedin.com/in/areeb22/"><i class="fa-brands fa-linkedin"
-                                          style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
-                                          aria-hidden="true"></i></a>
-                              </li>
-                          </ul>
-                      </h2>
-                  </div>
-              </div>
+                                <li>
+                                    <a href="https://www.instagram.com/khan_areeb22/"><i class="fa-brands fa-instagram"
+                                            style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/areeb22/"><i class="fa-brands fa-linkedin"
+                                            style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
+                </div>
 
             </div>
 
             <div class="container">
-              <div class="box">
-                <div class="imgBox">
-                    <img src="./images/Council 2025 Photographs/Shashank Jha.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h2 style="color: dimgray;">Shashank Jha</br>
-                        <span>JOINT SECRETARY</span>
-                        <br>
-                        <ul class="contact-social" style="margin-top: 1rem;">
-                            <!-- <li>
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="./images/Council 2025 Photographs/Shashank Jha.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 style="color: dimgray;">Shashank Jha</br>
+                            <span>JOINT SECRETARY</span>
+                            <br>
+                            <ul class="contact-social" style="margin-top: 1rem;">
+                                <!-- <li>
                                 <a href="#"><i class="fa-brands fa-x-twitter"
                                         style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                         aria-hidden="true"></i></a>
                             </li> -->
-                            <li>
-                                <a href="https://www.instagram.com/meshashankjha/"><i class="fa-brands fa-instagram"
-                                        style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/shashank-jha-7843b01aa/"><i class="fa-brands fa-linkedin"
-                                        style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </h2>
+                                <li>
+                                    <a href="https://www.instagram.com/meshashankjha/"><i class="fa-brands fa-instagram"
+                                            style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/shashank-jha-7843b01aa/"><i
+                                            class="fa-brands fa-linkedin"
+                                            style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-              <div class="imgBox">
-                  <img src="./images/Council 2025 Photographs/Kurush Rastogi.jpeg" alt="">
-              </div>
-              <div class="content">
-                  <h2 style="color: dimgray;">Kurush Rastogi</br>
-                      <span>JOINT SECRETARY</span>
-                      <br>
-                      <ul class="contact-social" style="margin-top: 1rem;">
-                          <!-- <li>
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="./images/Council 2025 Photographs/Kurush Rastogi.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 style="color: dimgray;">Kurush Rastogi</br>
+                            <span>JOINT SECRETARY</span>
+                            <br>
+                            <ul class="contact-social" style="margin-top: 1rem;">
+                                <!-- <li>
                               <a href="#"><i class="fa-brands fa-x-twitter"
                                       style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                       aria-hidden="true"></i></a>
                           </li> -->
-                          <li>
-                              <a href="https://www.instagram.com/kurush_rastogi/"><i class="fa-brands fa-instagram"
-                                      style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
-                                      aria-hidden="true"></i></a>
-                          </li>
-                          <li>
-                              <a href="https://www.linkedin.com/in/kurush-rastogi/"><i class="fa-brands fa-linkedin"
-                                      style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
-                                      aria-hidden="true"></i></a>
-                          </li>
-                      </ul>
-                  </h2>
-              </div>
-          </div>
+                                <li>
+                                    <a href="https://www.instagram.com/kurush_rastogi/"><i
+                                            class="fa-brands fa-instagram"
+                                            style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/kurush-rastogi/"><i
+                                            class="fa-brands fa-linkedin"
+                                            style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
+                </div>
                 <div class="box">
-                  <div class="imgBox">
-                      <img src="./images/Council 2025 Photographs/AkarshRai.jpg" alt="">
-                  </div>
-                  <div class="content">
-                      <h2 style="color: dimgray;">Akarsh Rai</br>
-                          <span>TREASURER</span>
-                          <br>
-                          <ul class="contact-social" style="margin-top: 1rem;">
-                              <li>
-                                  <a href="https://www.instagram.com/i_akarsh_rai/"><i class="fa-brands fa-instagram"
-                                          style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
-                                          aria-hidden="true"></i></a>
-                              </li>
-                              <li>
-                                  <a href="https://www.linkedin.com/in/akarsh-rai-452311229/"><i class="fa-brands fa-linkedin"
-                                          style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
-                                          aria-hidden="true"></i></a>
-                              </li>
-                          </ul>
-                      </h2>
-                  </div>
-              </div>
+                    <div class="imgBox">
+                        <img src="./images/Council 2025 Photographs/AkarshRai.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 style="color: dimgray;">Akarsh Rai</br>
+                            <span>TREASURER</span>
+                            <br>
+                            <ul class="contact-social" style="margin-top: 1rem;">
+                                <li>
+                                    <a href="https://www.instagram.com/i_akarsh_rai/"><i class="fa-brands fa-instagram"
+                                            style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/akarsh-rai-452311229/"><i
+                                            class="fa-brands fa-linkedin"
+                                            style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
+                </div>
             </div>
             <div class="container">
-              <div class="box">
-                <div class="imgBox">
-                    <img src="./images/Council 2025 Photographs/ashmit.png" alt="">
-                </div>
-                <div class="content">
-                    <h2 style="color: dimgray;">Ashmit Sharma</br>
-                        <span>JOINT TREASURER</span>
-                        <br>
-                        <ul class="contact-social" style="margin-top: 1rem;">
-                            <!-- <li>
+                <div class="box">
+                    <div class="imgBox">
+                        <img src="./images/Council 2025 Photographs/ashmit.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 style="color: dimgray;">Ashmit Sharma</br>
+                            <span>JOINT TREASURER</span>
+                            <br>
+                            <ul class="contact-social" style="margin-top: 1rem;">
+                                <!-- <li>
                                 <a href=""><i class="fa-brands fa-instagram"
                                         style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                         aria-hidden="true"></i></a>
                             </li> -->
-                            <li>
-                                <a href="https://www.linkedin.com/in/ashmit-sharma-023490227/"><i class="fa-brands fa-linkedin"
-                                        style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </h2>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ashmit-sharma-023490227/"><i
+                                            class="fa-brands fa-linkedin"
+                                            style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </h2>
+                    </div>
                 </div>
-            </div>
                 <div class="box">
                     <div class="imgBox">
                         <img src="./images/Council 2025 Photographs/Nikhil Kumar.jpg" alt="">
@@ -847,12 +957,14 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/nikhilkumar_0408/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/nikhilkumar_0408/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/nikhilkumar04/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/nikhilkumar04/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -866,7 +978,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Gitansh Mehta
-                        </br>
+                            </br>
                             <span>VICE CHAIRPERSON, CS</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -881,7 +993,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/gitansh-mehta/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/gitansh-mehta/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -907,12 +1020,14 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/prashant201103/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/prashant201103/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/prashant-693591228/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/prashant-693591228/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -935,7 +1050,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/curious_sidharth/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/curious_sidharth/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -953,8 +1069,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         <img src="./images/Council 2025 Photographs/Rishabh Jain.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h2 style="color: dimgray;">Rishabh Jain 
-                        </br>
+                        <h2 style="color: dimgray;">Rishabh Jain
+                            </br>
                             <span>VICE-CHAIRPERSON, PES-IAS</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -964,12 +1080,14 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/rishabhjain_11/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/rishabhjain_11/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/rishabh-jain2601/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/rishabh-jain2601/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -985,7 +1103,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;"> Anuj Kumar
-                        </br>
+                            </br>
                             <span>SECRETARY, PES-IAS</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1000,7 +1118,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/anuj-kumar-7aa58822b/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/anuj-kumar-7aa58822b/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1028,7 +1147,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/om-shanker-sahay-688ab5224/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/om-shanker-sahay-688ab5224/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1042,7 +1162,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Ashna Mittal
-                        </br>
+                            </br>
                             <span>VICE-CHAIRPERSON, WIE</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1052,12 +1172,14 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/_frohes_leben_/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/_frohes_leben_/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered; background-color: whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ashna-mittal-541201229/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/ashna-mittal-541201229/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1073,7 +1195,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;"> Anshita Garg</br>
-                            <span style="font-size: 1.2rem;" >Secretary, WIE</span>
+                            <span style="font-size: 1.2rem;">Secretary, WIE</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
                                 <!-- <li>
@@ -1087,7 +1209,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/anshita-garg-8286a5231/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/anshita-garg-8286a5231/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1101,7 +1224,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Ritik Gupta
-                        </br>
+                            </br>
                             <span>Secretary, WIE</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1116,7 +1239,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ritik-gupta-amlo/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/ritik-gupta-amlo/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1130,7 +1254,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Husain Saifee
-                        </br>
+                            </br>
                             <span>Webmaster</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1140,12 +1264,14 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.instagram.com/husain.saifee_07/"><i class="fa-brands fa-instagram"
+                                    <a href="https://www.instagram.com/husain.saifee_07/"><i
+                                            class="fa-brands fa-instagram"
                                             style="color: orangered ; background-color : whitesmoke; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/husain-saifee-29b973220/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/husain-saifee-29b973220/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1161,7 +1287,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Ritik Gupta
-                        </br>
+                            </br>
                             <span>Head, Membership Development</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1176,7 +1302,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ritik-gupta-amlo/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/ritik-gupta-amlo/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1190,7 +1317,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Ananya Goel
-                        </br>
+                            </br>
                             <span style="font-size: 1.3rem;">Head, Technical Affairs</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1218,8 +1345,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         <img src="./images/Council 2025 Photographs/Aditya Goyal.jpeg" alt="">
                     </div>
                     <div class="content">
-                        <h2 style="color: dimgray;">Aditya Goyal 
-                        </br>
+                        <h2 style="color: dimgray;">Aditya Goyal
+                            </br>
                             <span style="font-size: 1.3rem;">Head, Student Affairs</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1234,7 +1361,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/adityagoyal005/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/adityagoyal005/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1242,7 +1370,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         </h2>
                     </div>
                 </div>
-                
+
             </div>
             <div class="container">
                 <div class="box">
@@ -1252,7 +1380,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     <div class="content">
                         <h2 style="color: dimgray;">Garvit Rastogi
 
-                        </br>
+                            </br>
                             <span>Head, Publicity & Hospitality</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1267,7 +1395,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/garvit-rastogi-8019a31bb/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/garvit-rastogi-8019a31bb/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1282,7 +1411,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     <div class="content">
                         <h2 style="color: dimgray;">Rajat Sharda
 
-                        </br>
+                            </br>
                             <span style="font-size: 1.3rem;">Head, Research and Development</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1297,7 +1426,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/rajat-sharda-3b562622b/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/rajat-sharda-3b562622b/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1311,7 +1441,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                     </div>
                     <div class="content">
                         <h2 style="color: dimgray;">Ashutosh Jha
-                        </br>
+                            </br>
                             <span style="font-size: 1.3rem;">Head, Public Relations</span>
                             <br>
                             <ul class="contact-social" style="margin-top: 1rem;">
@@ -1326,7 +1456,8 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                                             aria-hidden="true"></i></a>
                                 </li> -->
                                 <li>
-                                    <a href="https://www.linkedin.com/in/ashutosh-jha-b938a52a3/"><i class="fa-brands fa-linkedin"
+                                    <a href="https://www.linkedin.com/in/ashutosh-jha-b938a52a3/"><i
+                                            class="fa-brands fa-linkedin"
                                             style="color: whitesmoke; background-color: blue; padding: 0.4rem; border-radius: 4px;"
                                             aria-hidden="true"></i></a>
                                 </li>
@@ -1334,9 +1465,9 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         </h2>
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </section>
 
         <section id="contact" class="s-contact">
@@ -1406,19 +1537,23 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                         <div class="cinfo">
                             <h5 style="color: #70A6E3;">Call Us At</h5>
                             <p>
-                                Rishab Dandriyal : 9971041480 <br>Arijit Sen : 8527653840 <br>Areeb Ahmed Khan : 8851492722 
+                                Rishab Dandriyal : 9971041480 <br>Arijit Sen : 8527653840 <br>Areeb Ahmed Khan :
+                                8851492722
                             </p>
                         </div>
 
                         <ul class="contact-social">
                             <li>
-                                <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/ieeedtu"><i class="fa-brands fa-facebook-f"
+                                        aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/dtu_ieee"><i class="fa-brands fa-x-twitter"
+                                        aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/ieee.dtu"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/ieee.dtu"><i class="fa-brands fa-instagram"
+                                        aria-hidden="true"></i></a>
                             </li>
                         </ul>
 
@@ -1436,7 +1571,7 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
                 <div class="col-twelve">
                     <div class="copyright">
                         <span style="color: white;">This website is developed with ❤️ by IEEE WebDev Team
-                            </span> <br>
+                        </span> <br>
                         <span>Copyright @2023 All rights reserved | IEEE-DTU</span> <br>
                     </div>
 
@@ -1453,61 +1588,61 @@ Bliss! EXPLORATION, CURIOSITY, AND A DESIRE TO GROW, THAT'S ALL WE ASK.
         </div>
         <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-            <div class="pswp__bg"></div>
-            <div class="pswp__scroll-wrap">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
 
-                <div class="pswp__container">
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                </div>
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
 
-                <div class="pswp__ui pswp__ui--hidden">
-                    <div class="pswp__top-bar">
-                        <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
-                            title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
-                            title="Share"></button> <button class="pswp__button pswp__button--fs"
-                            title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
-                            title="Zoom in/out"></button>
-                        <div class="pswp__preloader">
-                            <div class="pswp__preloader__icn">
-                                <div class="pswp__preloader__cut">
-                                    <div class="pswp__preloader__donut"></div>
-                                </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                        <div class="pswp__share-tooltip"></div>
-                    </div>
-                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                    <div class="pswp__caption">
-                        <div class="pswp__caption__center"></div>
-                    </div>
                 </div>
-
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
             </div>
 
         </div>
 
-        <div id="preloader">
-            <div id="loader">
-                <div class="line-scale-pulse-out">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+    </div>
+
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
+    </div>
 
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/main2.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
 
-    </body>
+</body>
 
 </html>
