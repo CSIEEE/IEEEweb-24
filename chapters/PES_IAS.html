@@ -21,9 +21,16 @@
       body {
         font-family: "Helvetica Neue", sans-serif;
         background-color: #0a0a14;
-        color: #ffffff;
+        color: #e0e0ff;
         overflow-x: hidden;
-        position: relative;
+        background-image: linear-gradient(
+            rgba(10, 10, 20, 0.2),
+            rgba(10, 10, 20, 0.2)
+          ),
+          url("https://t4.ftcdn.net/jpg/05/54/68/75/360_F_554687591_E8tIxWkr5mBVYa5z11Hiqv5wEfqQcNEQ.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
       }
 
       body::before {
@@ -33,11 +40,12 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('https://img.freepik.com/premium-photo/digital-art-woman-engineer-with-vibrant-neon-lines-worker-hard-hat-dark-background-modern-tech-style-illustration-ai_372197-29011.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0.1; /* Adjust this value to control transparency */
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Adjust the last value (0.5) for transparency */
         z-index: -1;
       }
 
@@ -52,7 +60,7 @@
         flex-direction: column;
         align-items: center;
         padding: 20px 0;
-        background-color: transparent !important;
+        /* background-color: rgba(0, 0, 0, 0.7); */
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -87,7 +95,6 @@
         min-width: calc(100% / 3); /* For 3 images per view */
         height: 100%;
         object-fit: cover;
-        object-position: center;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin: 0 10px;
@@ -106,13 +113,13 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: rgba(255, 192, 203, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
 
       .dot.active {
-        background-color: #ff69b4;
+        background-color: white;
       }
 
       @media (max-width: 768px) {
@@ -149,7 +156,7 @@
       nav {
         position: sticky;
         top: 0;
-        background-color: rgba(25, 25, 25, 0.8);
+        background-color: rgba(20, 20, 40, 0.8);
         padding: 15px 0;
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
         z-index: 1000;
@@ -159,7 +166,7 @@
       }
 
       nav a {
-        color: #ffc0cb;
+        color: #b8b8ff;
         text-decoration: none;
         padding: 10px 25px;
         display: flex;
@@ -167,7 +174,11 @@
         transition: color 1s ease, background-color 1s ease;
         cursor: pointer;
         border-radius: 30px;
-        background: linear-gradient(135deg, rgba(255, 105, 180, 0.3), rgba(255, 20, 147, 0.3));
+        background: linear-gradient(
+          135deg,
+          rgba(40, 40, 80, 0.8),
+          rgba(60, 60, 120, 0.8)
+        );
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         transition: transform 0.3s ease, box-shadow 0.7s ease;
         margin: 0 15px;
@@ -177,7 +188,7 @@
 
       nav a:hover {
         color: #ffffff;
-        background-color: rgba(255, 105, 180, 0.6);
+        background-color: rgba(80, 80, 160, 0.8);
         box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
         transform: translateY(-1.8px);
       }
@@ -236,7 +247,7 @@
         padding: 100px 0;
         margin: 30px 0;
         text-align: center;
-        background-color: rgba(25, 25, 25, 0.8);
+        background-color: rgba(20, 20, 40, 0.8);
         border-radius: 15px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -251,7 +262,7 @@
         font-size: 3rem;
         margin-bottom: 40px;
         font-weight: 700;
-        color: #ffc0cb;
+        color: #b8b8ff;
       }
 
       section p {
@@ -285,7 +296,7 @@
       footer {
         padding: 40px 20px;
         text-align: center;
-        background-color: rgba(25, 25, 25, 0.9);
+        background-color: rgba(10, 10, 20, 0.9);
         border-top: 1px solid #2a2a2a;
         display: flex;
         flex-direction: column;
@@ -294,18 +305,18 @@
 
       footer p {
         font-size: 1.1rem;
-        color: #ffc0cb;
+        color: #b0b0ff;
         margin-bottom: 15px;
       }
 
       footer a {
-        color: #ff69b4;
+        color: #80a0ff;
         text-decoration: none;
         transition: color 0.3s ease;
       }
 
       footer a:hover {
-        color: #ff1493;
+        color: #a0c0ff;
       }
 
       .social-icons {
@@ -506,11 +517,11 @@
       .cta-container h3 {
         font-size: 1.5rem;
         margin-bottom: 20px;
-        color: #ff69b4;
+        color: #4a4aff;
       }
 
       .join-button {
-        background-color: #ff69b4;
+        background-color: #4a4aff;
         color: white;
         border: none;
         padding: 12px 24px;
@@ -521,7 +532,7 @@
       }
 
       .join-button:hover {
-        background-color: #ff1493;
+        background-color: #6a6aff;
       }
 
       .events-container {
@@ -557,58 +568,6 @@
           max-width: 400px;
         }
       }
-
-      /* Adjust theme colors */
-      :root {
-        --primary-color: #ff69b4;
-        --secondary-color: #ff1493;
-        --accent-color: #ffc0cb;
-        --text-color: #ffffff;
-        --background-color: rgba(25, 25, 25, 0.8);
-      }
-
-      /* Update other elements */
-      header, nav, main, footer {
-        background-color: var(--background-color);
-      }
-
-      .button {
-        background-color: var(--primary-color);
-        color: #ffffff;
-      }
-
-      .button:hover {
-        background-color: var(--secondary-color);
-      }
-
-      /* Add a glow effect to headings */
-      h1 {
-        text-shadow: 0 0 10px var(--primary-color);
-      }
-
-      /* Style links */
-      a {
-        color: var(--accent-color);
-      }
-
-      a:hover {
-        color: var(--secondary-color);
-      }
-
-      /* Adjust card styles */
-      .card {
-        background-color: rgba(255, 255, 255, 0.1);
-        border: 1px solid var(--primary-color);
-      }
-
-      /* Update form styles */
-      input[type="text"], input[type="email"], textarea {
-        background-color: rgba(255, 255, 255, 0.2);
-        color: var(--text-color);
-        border: 1px solid var(--primary-color);
-      }
-
-      /* Add any other specific adjustments as needed */
     </style>
   </head>
   <body>
@@ -623,14 +582,12 @@
     </nav>
 
     <header>
-      <h1>IEEE DTU WIE CHAPTER</h1>
+      <h1>IEEE DTU PES-IAS CHAPTER</h1>
       <div class="carousel-container">
         <div class="carousel">
-          <img src="kids.jpg" alt="Image 1" />
-          <img src="vihaan.jpg" alt="Image 2" />
-          <img src="group.jpg" alt="Image 3" />
-          <img src="ishwarngo.jpg" alt="Image 4" />
-          <img src="IMG_0412.jpeg" alt="Image 5" />
+          <img src="../images/pese1.jpg" alt="Image 1" />
+          <img src="../images/pese2.jpg" alt="Image 2" />
+          <img src="../images/group.jpg" alt="Image 3" />
           
         </div>
         <div class="carousel-dots"></div>
@@ -754,23 +711,24 @@
       <section id="about">
         <h2>About Us</h2>
         <p>
-          IEEE Women in Engineering (WIE) is a global network of IEEE members
-          and volunteers dedicated to promoting women engineers and scientists
-          and inspiring girls around the world to follow their academic
-          interests in a career in engineering and science. WIEVEK is a flagship
-          initiative of IEEE WIE, dedicated to sparking a passion for STEM in
-          young minds. Through NGO visits, this program strives to bridge the
-          gap in access to quality STEM education, inspiring the next generation
-          of innovators
+          The IEEE DTU PES-IAS Chapter is a dynamic and vibrant community of
+          passionate individuals dedicated to advancing the field of Power and
+          Energy Systems as well as Industrial Applications.Our primary goal is
+          to disseminate knowledge and promote a deeper understanding of Power
+          and Energy Systems and Industrial Applications.Through various events,
+          workshops, and seminars, we aim to keep our members updated with the
+          latest developments and trends in these fields. One of our flagship
+          events, TinkerCase, is an Arduino showcase event held annually in
+          honor of IEEE Day, where students can delve into the limitless
+          possibilities of Arduino technology
         </p>
       </section>
 
       <section id="events">
         <h2>Events</h2>
         <div class="events-container">
-          <img src="wievek.jpg" alt="Event 1" />
-          <img src="vihaan007.jpg" alt="Event 2" />
-          <img src="DSSYWC.jpg" alt="Event 3" />
+          <img src="../images/tinkercase.jpg" alt="Event 1" />
+          <img src="../images/DSSYWC.jpg" alt="Event 2" />
         </div>
       </section>
 

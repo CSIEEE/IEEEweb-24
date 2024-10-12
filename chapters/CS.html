@@ -23,30 +23,10 @@
         background-color: #0a0a14;
         color: #e0e0ff;
         overflow-x: hidden;
-        background-image: linear-gradient(
-            rgba(10, 10, 20, 0.2),
-            rgba(10, 10, 20, 0.2)
-          ),
-          url("https://t4.ftcdn.net/jpg/05/54/68/75/360_F_554687591_E8tIxWkr5mBVYa5z11Hiqv5wEfqQcNEQ.jpg");
+        background-image: linear-gradient(rgba(10, 10, 20, 0.7), rgba(10, 10, 20, 0.7)), url('https://i.pinimg.com/originals/32/10/92/32109263a1c9123d13811ab7374f46c6.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(
-          0,
-          0,
-          0,
-          0.5
-        ); /* Adjust the last value (0.5) for transparency */
-        z-index: -1;
       }
 
       .container {
@@ -60,7 +40,7 @@
         flex-direction: column;
         align-items: center;
         padding: 20px 0;
-        /* background-color: rgba(0, 0, 0, 0.7); */
+        /* background-image: linear-gradient(rgba(10, 10, 20, 0.7), rgba(10, 10, 20, 0.7)), url("output-onlinepngtools.png"); */
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -174,11 +154,7 @@
         transition: color 1s ease, background-color 1s ease;
         cursor: pointer;
         border-radius: 30px;
-        background: linear-gradient(
-          135deg,
-          rgba(40, 40, 80, 0.8),
-          rgba(60, 60, 120, 0.8)
-        );
+        background: linear-gradient(135deg, rgba(40, 40, 80, 0.8), rgba(60, 60, 120, 0.8));
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         transition: transform 0.3s ease, box-shadow 0.7s ease;
         margin: 0 15px;
@@ -534,40 +510,6 @@
       .join-button:hover {
         background-color: #6a6aff;
       }
-
-      .events-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px;
-      }
-
-      .events-container img {
-        width: 30%;
-        max-width: 500px;
-        height: auto;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .events-container img:hover {
-        transform: scale(1.05);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-      }
-
-      @media (max-width: 768px) {
-        .events-container {
-          flex-direction: column;
-          align-items: center;
-        }
-
-        .events-container img {
-          width: 90%;
-          max-width: 400px;
-        }
-      }
     </style>
   </head>
   <body>
@@ -582,13 +524,14 @@
     </nav>
 
     <header>
-      <h1>IEEE DTU PES-IAS CHAPTER</h1>
+      <h1>IEEE DTU CS CHAPTER</h1>
       <div class="carousel-container">
         <div class="carousel">
-          <img src="pese1.jpg" alt="Image 1" />
-          <img src="pese2.jpg" alt="Image 2" />
-          <img src="group.jpg" alt="Image 3" />
-          
+          <img src="../images/vihaan.jpg" alt="Image 1" />
+          <img src="../images/vihaan2.jpg" alt="Image 2" />
+          <img src="../images/group.jpg" alt="Image 3" />
+          <img src="../images/techweek.jpg" alt="Image 4" />
+          <img src="../images/xtreme.jpg" alt="Image 5" />
         </div>
         <div class="carousel-dots"></div>
       </div>
@@ -711,24 +654,31 @@
       <section id="about">
         <h2>About Us</h2>
         <p>
-          The IEEE DTU PES-IAS Chapter is a dynamic and vibrant community of
-          passionate individuals dedicated to advancing the field of Power and
-          Energy Systems as well as Industrial Applications.Our primary goal is
-          to disseminate knowledge and promote a deeper understanding of Power
-          and Energy Systems and Industrial Applications.Through various events,
-          workshops, and seminars, we aim to keep our members updated with the
-          latest developments and trends in these fields. One of our flagship
-          events, TinkerCase, is an Arduino showcase event held annually in
-          honor of IEEE Day, where students can delve into the limitless
-          possibilities of Arduino technology
+          The IEEE Computer Society stands as the premier source for
+          information, inspiration, and collaboration in computer science and
+          engineering. It is a vibrant community of passionate individuals
+          united by their deep enthusiasm for computer science. Together, they
+          collaborate on projects, foster mutual growth, and drive innovation
+          within the field. At IEEE DTU Computer Society, we've organized
+          several flagship events, including Microhacks, IEEEXtreme, and Bulls
+          N' Bears. We're also proud to host Vihaan, India's largest student-run
+          hackathon, which garnered over 5,000 registrations last year.
         </p>
       </section>
 
       <section id="events">
         <h2>Events</h2>
-        <div class="events-container">
-          <img src="tinkercase.jpg" alt="Event 1" />
-          <img src="DSSYWC.jpg" alt="Event 2" />
+        <div class="events-carousel-container">
+          <div class="events-carousel">
+            <img src="../images/MIST.jpg" alt="Event 1" />
+            <img src="../images/vihaan007.jpg" alt="Event 2" />
+            <img src="../images/ieeextreme.png" alt="Event 3" />
+            <img src="../images/hackaithon.jpg" alt="Event 4" />
+            <img src="../images/techweek.jpeg" alt="Event 5" />
+            <img src="../images/blockchain1.jpeg" alt="Event 6" />
+          </div>
+          <button class="carousel-arrow left-arrow">&lt;</button>
+          <button class="carousel-arrow right-arrow">&gt;</button>
         </div>
       </section>
 
@@ -740,21 +690,19 @@
             international conferences, journals, and seminars, with discounts on
             electronics, workshops, and exclusive competitions like IEEE Xtreme.
             Members also enjoy access to the IEEE Xplore Library, which contains
-            research from 37 peer-reviewed magazines and over 700,000 documents
-            on various topics.
+            research from 37 peer-reviewed magazines and over 700,000 documents on
+            various topics.
           </p>
           <p>
-            At IEEE DTU, the experience goes further. You'll join Special
-            Interest Groups (SIGs), explore AI, ML, Arduino, and 3D design, and
-            participate in events like hackathons and Robo races. The hands-on
-            experience, mentorship, and creativity make IEEE DTU more than a
-            club—it's a community of growth and innovation.
+            At IEEE DTU, the experience goes further. You'll join Special Interest
+            Groups (SIGs), explore AI, ML, Arduino, and 3D design, and participate
+            in events like hackathons and Robo races. The hands-on experience,
+            mentorship, and creativity make IEEE DTU more than a club—it's a
+            community of growth and innovation.
           </p>
           <div class="cta-container">
             <h3>Be Part of the IEEE-DTU Family</h3>
-            <button class="join-button" onclick="openJoinForm()">
-              Join Now
-            </button>
+            <button class="join-button" onclick="openJoinForm()">Join Now</button>
           </div>
         </div>
       </section>
@@ -762,31 +710,15 @@
       <footer id="contact">
         <p>
           Contact us at:
-          <a href="mailto: ieeedtupr@gmail.com"> ieeedtupr@gmail.com</a>
+          <a href="mailto:cs.ieeedtu@gmail.com">cs.ieeedtu@gmail.com</a>
         </p>
         <p>Follow us on:</p>
         <div class="social-icons">
-          <a
-            href="https://www.instagram.com/ieee.dtu/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-              alt="Instagram"
-              class="social-icon"
-            />
+          <a href="https://www.instagram.com/ieee.dtu/" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="social-icon">
           </a>
-          <a
-            href="https://www.linkedin.com/company/ieee-dtu/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-              alt="LinkedIn"
-              class="social-icon"
-            />
+          <a href="https://www.linkedin.com/company/ieee-dtu/" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
           </a>
         </div>
       </footer>
@@ -871,10 +803,7 @@
       });
 
       function openJoinForm() {
-        window.open(
-          "https://docs.google.com/forms/d/e/1FAIpQLScdVzhcEbKrc61Y3aUzhK1NTybm7MpRfYNBvNAHSzV1tTpBzA/viewform",
-          "_blank"
-        );
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLScdVzhcEbKrc61Y3aUzhK1NTybm7MpRfYNBvNAHSzV1tTpBzA/viewform', '_blank');
       }
     </script>
   </body>
